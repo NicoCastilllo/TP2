@@ -18,13 +18,13 @@
         </nav>
 
         <header>
-            <h1 class=" row justify-content-center">Sportzone</h1>
+            <h1 class=" row justify-content-around">Sportzone</h1>
             <div class="row justify-content-start">
-                <button class="col-1 m-1 btn btn-primary">Camisetas</button>
-                <button class="col-1 m-1 btn btn-primary ">Pelotas</button>
-                <button class="col-1 m-1 btn btn-primary ">Calzado</button>
-                <button class="col-1 m-1 btn btn-primary">Equipo deportivo</button>
-                <button class="col-1 m-1 btn btn-primary">Quitar filtros</button>
+                <button id="BCamisetas" class="col-1 m-2 boton">Camisetas</button>
+                <button id="BPelotas" class="col-1 m-2 boton">Pelotas</button>
+                <button id="BCalzado" class="col-1 m-2 boton">Calzado</button>
+                <button id="BArticulos" class="col-1 m-2 boton">Equipo deportivo</button>
+                <button id="BReset" class="col-1 m-2 boton">Quitar filtros</button>
             </div>
         
         
@@ -33,100 +33,117 @@
         <main>
             <div class="row justify-content-around">
 
-                <div class="card col-2 m-4">
-                    <img src= "img/camisetas/camisetafutbol.jpg">
+                <div class="carta col-2 m-4 camisetas">
+                    <img class="cartaimg" src= "img/camisetas/camisetafutbol.jpg">
                     <h4>Camiseta Seleccion de Futbol</h4>
                     <h5>Precio: $9000</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "./img/camisetas/camisetabasquet.jpg">
+                <div class="carta col-2 m-4 camisetas">
+                    <img class="cartaimg" src= "./img/camisetas/camisetabasquet.jpg">
                     <h4>Camiseta Seleccion de Basquet</h4>
                     <h5>Precio: $2520</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "img/camisetas/camisetalasleonas.jpg">
+                <div class="carta col-2 m-4 camisetas">
+                    <img  class="cartaimg"src= "img/camisetas/camisetalasleonas.jpg">
                     <h4>Camiseta Seleccion femenina de Hockey</h4>
                     <h5>Precio: $7640</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "img/camisetas/seleccionvoley.jpg">
+                <div class="carta col-2 m-4 camisetas">
+                    <img class="cartaimg"  src= "img/camisetas/seleccionvoley.jpg">
                     <h4>Camiseta Seleccion de Volley</h4>
                     <h5>Precio: $5000</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "./img/pelotas/pelotafutbol.jpg">
+                <div class="carta col-2 m-4 pelotas">
+                    <img class="cartaimg" src= "./img/pelotas/pelotafutbol.jpg">
                     <h4>Pelota de Futbol Nike</h4>
                     <h5>Precio: $680</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "img/pelotas/pelotanba.jpg">
+                <div class="carta col-2 m-4 pelotas">
+                    <img class="cartaimg" src= "img/pelotas/pelotanba.jpg">
                     <h4>Balon oficial de la NBA</h4>
                     <h5>Precio: $5000</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "img/pelotas/pelotavolley.jpg">
+                <div class="carta col-2 m-4 pelotas">
+                    <img class="cartaimg" src= "img/pelotas/pelotavolley.jpg">
                     <h4>Pelota de Volley</h4>
                     <h5>Precio: $1900</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "img/pelotas/bochahockey.jpg">
+                <div class="carta col-2 m-4 pelotas">
+                    <img class="cartaimg" src= "img/pelotas/bochahockey.jpg">
                     <h4>Bocha de Hockey</h4>
                     <h5>Precio: $300</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "./img/articulos/raquetadetenisypelotas.jpg">
+                <div class="carta col-2 m-4 articulos">
+                    <img class="cartaimg" src= "./img/articulos/raquetadetenisypelotas.jpg">
                     <h4>Raqueta de tenis + juego de tres pelotas</h4>
                     <h5>Precio: $3500</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "./img/calzado/botinesfutbol.jpg">
+                <div class="carta col-2 m-4 calzado">
+                    <img class="cartaimg" src= "./img/calzado/botinesfutbol.jpg">
                     <h4>Botines Nike</h4>
                     <h5>Precio: $5800</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "./img/calzado/deportivas.jpg">
+                <div class="carta col-2 m-4 calzado">
+                    <img class="cartaimg" src= "./img/calzado/deportivas.jpg">
                     <h4>Zapatillas Deportivas</h4>
                     <h5>Precio: $2400</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "./img/calzado/zapatillastopper.jpg">
+                <div class="carta col-2 m-4 calzado">
+                    <img class="cartaimg" src= "./img/calzado/zapatillastopper.jpg">
                     <h4>Zapatillas Running Topper</h4>
                     <h5>Precio: $8300</h5>
+                    <button class="mb-1">Comprar</button>
+                    
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "./img/articulos/palosdegolf.jpg">
+                <div class="carta col-2 m-4 articulos">
+                    <img class="cartaimg" src= "./img/articulos/palosdegolf.jpg">
                     <h4>Set de palos de Golf</h4>
                     <h5>Precio: $47300</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "./img/articulos/kitbaseball.jpg">
+                <div class="carta col-2 m-4 articulos">
+                    <img class="cartaimg" src= "./img/articulos/kitbaseball.jpg">
                     <h4>Kit de Baseball</h4>
                     <h5>Precio: $10800</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "img/pelotas/pelotahandball.jpg">
+                <div class="carta col-2 m-4 pelotas">
+                    <img class="cartaimg" src= "img/pelotas/pelotahandball.jpg">
                     <h4>Pelota de Handball</h4>
                     <h5>Precio: $1140</h5>
+                    <button class="mb-1">Comprar</button>
                 </div>
 
-                <div class="card col-2 m-4">
-                    <img src= "img/articulos/mancuerna.jpg">
+                <div class="carta col-2 m-4 articulos">
+                    <img class="cartaimg" src= "img/articulos/mancuerna.jpg">
                     <h4>Mancuerna de 5KG</h4>
-                    <h5>Precio: $3620</h5>
+                    <h5 class="precio">Precio: $3620</h5>
+                    <button class="mb-1 botoncomprar">Comprar</button>
                 </div>
 
             </div>
@@ -137,7 +154,7 @@
 
         </footer>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src= "./js/app.js"></script>
+        <script src= "js/app.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     </body>

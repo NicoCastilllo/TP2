@@ -1,0 +1,22 @@
+.carta{
+    border: 1px solid #4F4D51;
+}
+
+.cartaimg{  width: 100%;           
+}
+
+.boton{
+    height: 55px;
+    width: 100px;
+    background-color: rgb(14, 104, 177);
+    border: 0px;
+    border-radius: 15px;
+}
+
+.carta:hover{
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);}
+
+.boton:hover{
+     
+    box-shadow: 9px 4px 8px 0px rgba(27,23,250,0.42);
+}
