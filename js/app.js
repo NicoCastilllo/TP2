@@ -24,15 +24,18 @@ $(document).ready(()=>{
         $(".camisetas, .pelotas, .articulos, .calzado").show();
     });
 
-    let = precio = false
-    let = botoncomprar = false
+    $(".precio,.botoncomprar").toggle()
 
-    $(".carta").hover(()=>{
-        $("precio,botoncomprar").show();
-        
+    mostrar = true 
 
-   
+    $("#carta16").hover(()=>{
+        if(mostrar==true){
+            $(".precio,.botoncomprar").show()
+            mostrar = false
+        }else{$(".precio,.botoncomprar").toggle()
+        mostrar = true}
     });
+    
 
 
 });
