@@ -10,7 +10,27 @@
     width: 100px;
     background-color: rgb(14, 104, 177);
     border: 0px;
-    border-radius: 15px;
+}
+
+.botoncompra{
+    height: 40px;
+    width: 220px;
+    background-color: rgb(14, 104, 177);
+    border: 0px;
+}
+
+.botonvolver{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(14, 104, 177);
+    border: 0px;
+}
+
+.botoncards{
+    height: 37px;
+    width: 75px;
+    background-color: rgb(14, 104, 177);
+    border: 0px;
 }
 
 .carta:hover{
@@ -20,3 +40,4 @@
      
     box-shadow: 9px 4px 8px 0px rgba(27,23,250,0.42);
 }
+

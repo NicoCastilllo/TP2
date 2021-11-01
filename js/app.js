@@ -36,6 +36,15 @@ $(document).ready(()=>{
         mostrar = true}
     });
     
+    $("#miniatura1").click(() =>{
+        $("#fotoprincipal").attr("src","img/compra/camiseta1.jpg")
+    })
 
+    $("#miniatura2").click(() =>{
+        $("#fotoprincipal").attr("src","img/compra/camiseta2.jpg")
+    })
 
+    $("#miniatura3").click(() =>{
+        $("#fotoprincipal").attr("src","img/compra/camiseta3.jpg")
+    })
 });
