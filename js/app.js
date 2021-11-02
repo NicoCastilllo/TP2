@@ -24,17 +24,26 @@ $(document).ready(()=>{
         $(".camisetas, .pelotas, .articulos, .calzado").show();
     });
 
-    $(".precio,.botoncomprar").toggle()
+    $(".descripcion").toggle()
 
-    mostrar = true 
 
-    $("#carta16").hover(()=>{
-        if(mostrar==true){
-            $(".precio,.botoncomprar").show()
-            mostrar = false
-        }else{$(".precio,.botoncomprar").toggle()
-        mostrar = true}
-    });
+
+    for (let i = 1; i <= 16; i++) {
+ 
+        $(`#${i}`).hover( 
+            ()=> {
+                  $(`#${i} > p`).css("opacity", "100")
+                  $(`#${i} > a`).css("display", "block")
+             } ,
+            ()=> {
+                  $(`#${i} > p`).css("opacity", "0")
+                  $(`#${i} > a`).css("display", "none")
+                 }
+            )
+        
+  
+     }
+
     
     $("#miniatura1").click(() =>{
         $("#fotoprincipal").attr("src","img/compra/camiseta1.jpg")

@@ -1,5 +1,6 @@
 .carta{
     border: 1px solid #4F4D51;
+    height: 350px;
 }
 
 .cartaimg{  width: 100%;           
@@ -34,10 +35,18 @@
 }
 
 .carta:hover{
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);}
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    height: 550px;
+}
 
 .boton:hover{
      
     box-shadow: 9px 4px 8px 0px rgba(27,23,250,0.42);
+}
+.carta > p {
+    opacity: 0;
+}
+.carta > a {
+    display: none;
 }
 
