@@ -24,25 +24,11 @@ $(document).ready(()=>{
         $(".camisetas, .pelotas, .articulos, .calzado").show();
     });
 
-    $(".descripcion").toggle()
-
-
-
-    for (let i = 1; i <= 16; i++) {
+   for (let i = 1; i <= 16; i++) {
  
         $(`#${i}`).hover( 
-            ()=> {
-                  $(`#${i} > p`).css("opacity", "100")
-                  $(`#${i} > a`).css("display", "block")
-             } ,
-            ()=> {
-                  $(`#${i} > p`).css("opacity", "0")
-                  $(`#${i} > a`).css("display", "none")
-                 }
-            )
-        
-  
-     }
+            ()=> {$(`#${i} > p`).css("opacity", "100")},()=> {$(`#${i} > p`).css("opacity", "0")}
+          )}
 
     
     $("#miniatura1").click(() =>{
