@@ -9,29 +9,33 @@
 .boton{
     height: 50px;
     width: 90px;
-    background-color: rgb(14, 104, 177);
+    background-color: rgba(6, 8, 134, 0.911);
+    color: cornsilk;
     border: 0px;
 }
 
 .botoncompra{
     height: 40px;
     width: 220px;
-    background-color: rgb(14, 104, 177);
+    background-color: rgba(6, 8, 134, 0.911);
+    color: cornsilk;
     border: 0px;
 }
 
 .botonvolver{
     height: 40px;
     width: 150px;
-    background-color: rgb(14, 104, 177);
+    background-color: rgba(6, 8, 134, 0.911);
+    color: cornsilk;
     border: 0px;
 }
 
 .botoncards{
     height: 37px;
     width: 75px;
-    background-color: rgb(14, 104, 177);
+    background-color: rgba(6, 8, 134, 0.911);
     border: 0px;
+    color: cornsilk;
 }
 
 .carta:hover{
@@ -100,4 +104,8 @@ text-decoration: none solid rgb(68, 68, 68);
 font-style: normal;
 font-variant: normal;
 text-transform: uppercase;
+}
+
+.fondotitulo {
+    background-color: chartreuse;
 }
